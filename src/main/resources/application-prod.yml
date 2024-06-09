@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: fat-brain-api
+  datasource:
+    url: jdbc:mysql://10.0.0.16:3306/fat_brain
+    username: fat-brain
+    password: wGB!dwLJ%*omrJbUu
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+auth:
+  access:
+    secret: 6HGcXi+vA9o3AEygwsv2tt4nkZAIZSJb9uqlj17nzsw=
+    expires-in: 1800
+  refresh:
+    secret: 3qG/uZ2omjFQplnNswApwsGl7XVr8fcZLz4rfCHPuqc=
+    expires-in: 604800
+
+server:
+  port: 80
